@@ -43,3 +43,7 @@ For this project I chose a dataset from Lending Club **approved personal loans b
 ## Performance Metric Selection
 
 The model will be used to determine who should be approved for a loan and who shouldn’t, denying the loan to a client who will end up paying in full (false positives) represents a loss, but because interest is usually only a portion of principal the company will most likely be more comfortable not taking the chance when the risk is not to get reimbursed at all and lose the entire principal which represents a higher amount. Thus the main concern here is to avoid approving somebody who won't be able to repay or in other words avoid false negatives. This is achieved by a model with a high recall rate. Recall will be the performance evaluation metric of choice for our model. We also need to evaluate TPR to make sure we are not declined too many qualified borrowers.
+
+## SMOT 
+
+Imbalanced datasets as the one we are working with in this project are very common in data science. Training a Machine Learning Model with this imbalanced dataset, often causes the model to develop a certain bias towards the majority class. SMOT is a technique based on nearest neighbors judged by Euclidean Distance between data points in feature space. In our dataset only 15% of the loans were not repaid and we need to use SMOT to balance the dataset.
