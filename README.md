@@ -52,7 +52,7 @@ Imbalanced datasets as the one we are working with in this project are very comm
 
 Logistic regression is a powerful Algorithm for classification of categorical variables and it will turn out to be very useful for our credit default prediction task. In this project we use the sigmoid function to transform our inputs into 0 to 1 values and then use the 50% threshold to decide on the class each data point will be attributed to. 
 
-![](img/XGboost.png)
+![](img/sigmoid-function.png)
 
 ## Random Forest  
 
@@ -64,4 +64,4 @@ Random forest represents the wisdom of the crowd. The concept is to build a larg
 
 Gradient descent is the bread and butter of machine learning algorithms and XG Boost is the golden standard of utilizing gradient descent. Think of it as planning out a few different routes to a single location you’ve never been to; as you use all of the routes, you begin to learn which traffic lights take long when and how the time of day impacts one route over the other, allowing you to craft the perfect route.
 
-![](https://capstone-project-bucket-niko.s3.amazonaws.com/notebooks/XGboost.png)
+![](img/XGboost.png)
