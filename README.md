@@ -52,7 +52,7 @@ Imbalanced datasets as the one we are working with in this project are very comm
 
 Logistic regression is a powerful Algorithm for classification of categorical variables and it will turn out to be very useful for our credit default prediction task. In this project we use the sigmoid function to transform our inputs into 0 to 1 values and then use the 50% threshold to decide on the class each data point will be attributed to. 
 
-![](img/sigmoid-function.png)
+![](img/XGBoost.png)
 
 ## Random Forest  
 
